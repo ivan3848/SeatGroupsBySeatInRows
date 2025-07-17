@@ -12,11 +12,11 @@ for (int i = 0; i < rowsAndGroups.Last(); i++)
         {
             seatGroups++;
             //split if more than one group fit in a row without separating group members
-            //rowsSize[j] -= group;
-            //if (rowsSize[j] == 0)
-            //{
-            //    rowsSize.Remove(rowsSize[j]);
-            //}
+            rowsSize[j] -= group;
+            if (rowsSize[j] == 0)
+            {
+                rowsSize.Remove(rowsSize[j]);
+            }
 
             break;
         }
