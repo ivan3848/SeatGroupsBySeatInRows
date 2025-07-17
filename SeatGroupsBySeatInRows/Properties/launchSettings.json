@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SeatGroupsBySeatInRows": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
